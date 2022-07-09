@@ -1,0 +1,46 @@
+body div section:nth-child(3), body div section article, body div section, body div h1, body div, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5%;
+}
+
+body div {
+  border: 2px solid red;
+  flex-direction: column;
+}
+body div h1 {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+  color: green;
+}
+body div section {
+  height: 90px;
+  width: 100%;
+}
+body div section article {
+  height: 100%;
+  width: 25%;
+  color: blue;
+  border-color: green;
+  font-size: 1rem, 1rem;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body div section article:nth-child(even) {
+  color: red;
+}
+body div section:nth-child(3) {
+  width: 100%;
+}
+body div section:nth-child(3) article {
+  width: 100%;
+  color: green;
+  border-color: blue;
+  font-size: 24px, 1rem;
+  border-style: solid;
+  border-width: 2px;
+}/*# sourceMappingURL=style.css.map */
